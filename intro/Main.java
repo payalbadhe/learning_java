@@ -6,10 +6,10 @@ public class Main {
         // Print text directly to the console output
         System.out.println("Hello, World!");
         
-        // Variable declaration and simple arithmetic
+        // Variable declaration and simple arithmetic 
         int numberA = 10;
         int numberB = 20;
-        int sum = numberA + numberB;
+        int sum = numberA + numberB; 
         
         // Concatenating string output with data variables
         System.out.println("The sum of variables is: " + sum);

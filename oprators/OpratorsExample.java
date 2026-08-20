@@ -16,8 +16,11 @@ public class OpratorsExample{
 
         boolean isAdmin = false;
         System.out.println(!isAdmin);
+        //arithmatic oprators
 
-        //unary
+        
+
+        //unary oprator
         int num = 7;
         int result = num++;
         System.out.println(result); //7
@@ -25,7 +28,8 @@ public class OpratorsExample{
 
         result = ++num;
         System.out.println(result);//9
-        System.out.println(num);
+        System.out.println(num);//9
+
 
     }
 }

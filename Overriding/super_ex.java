@@ -13,7 +13,6 @@ class child extends parent {
         System.out.println("Parent name: " + super.name);
     }
 }
-
 public class super_ex {
 
     public static void main(String[] args) {

@@ -1,3 +1,4 @@
+
 public class Nestedif {
 
     public static void main(String[] args) {
@@ -10,9 +11,8 @@ public class Nestedif {
             } else {
                 System.out.println("Need Licence");
             }
-            }else {
-                System.out.println("You are underage");
-            }
+        } else {
+            System.out.println("You are underage");
         }
     }
-
+}

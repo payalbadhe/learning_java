@@ -41,7 +41,7 @@ class Employee {
 
 }
 
-public class ConstructorExample {
+class ConstructorExample {
 
     public static void main(String[] args) {
         Employee pratik = new Employee();

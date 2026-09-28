@@ -100,17 +100,17 @@ public class Payment_getway {
         switch (choice) {
             case 1:
                 System.out.print("Enter Credit Card Number: ");
-                String cardNumber = scanner.next();
+                String cardNumber = scanner.nextLine();
                 payment = new CreditCardPayment(cardNumber);
                 break;
             case 2:
                 System.out.print("Enter UPI ID: ");
-                String upiId = scanner.next();
+                String upiId = scanner.nextLine();
                 payment = new UpiPayment(upiId);
                 break;
             case 3:
                 System.out.print("Enter Net Banking User ID: ");
-                String userId = scanner.next();
+                String userId = scanner.nextLine();
                 payment = new NetBankingPayment(userId);
                 break;
             default:
